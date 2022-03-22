@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Readex Pro", sans-serif;
+  background-color: #778beb;
+  text-align: center;
+  margin: 0;
+}
+
+form {
+  background-color: aliceblue;
+  max-width: 450px;
+  margin: 40px auto;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  padding: 30px 20px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h1 + p {
+  margin-top: 0;
+}
+
+.form-control {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  display: block;
+  border-radius: 2px;
+  border: 1px solid #777;
+  padding: 10px;
+  width: 100%;
+  font-family: inherit;
+}
+
+.form-control select {
+  height: 27px;
+  padding: 0;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  width: auto;
+  display: inline;
+}
+
+button {
+  background-color: #778beb;
+  width: 100%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #778beb;
+  font-family: inherit;
+  font-size: 16px;
+}
+
+button:active {
+  background-color: aliceblue;
+  width: 100%;
+  padding: 10px;
+  width: 100%;
+  border-radius: 2px;
+  border: 1px solid #778beb;
+  font-family: inherit;
+  font-size: 16px;
+}
